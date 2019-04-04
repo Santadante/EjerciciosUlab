@@ -1,0 +1,20 @@
+.elemento li{
+   list-style: none;
+}
+
+.circulo li{
+    list-style-type: circle;
+    
+}
+
+.cuadrado li{
+    list-style-type: square;
+}
+
+.romano li{
+    list-style-type: lower-roman;
+}
+
+.griega li{
+    list-style-type: lower-greek;
+}

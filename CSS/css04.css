@@ -1,0 +1,31 @@
+*{
+    font-family: "Arial",verdana;
+ }
+
+.datos{
+     font-family:"Georgia";
+     font-weight: 32px;
+}
+
+.formacion,.experiencia{
+     font-family:"Georgia";
+     font-weight: 24px;
+}
+
+h1{
+     font-variant: small-caps;
+     font-family: "times new roman";
+}
+
+h2{
+     font-variant: small-caps;
+     font-style: italic;
+}
+
+strong{
+     font-weight: normal;
+}
+
+ul li{
+     font-weight: bold;
+}
