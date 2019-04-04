@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Ejercicio 05</title>
+    </head>
+    <body>
+        <h1>Formulario de registro</h1>
+        <form action="01.html" method="POST">
+            <div>
+                <label>Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+
+            <p>
+            <div>
+                <label>Apellidos:</label>
+                <input type="text" name="apellidos" id="apellidos">
+            </div>
+            </p>
+
+            <p>
+            <div>
+                <label>Sexo:</label>
+                <input type="radio" id="hombre" name="selección" value="hombre"> 
+                <label for="hombre">Hombre</label> 
+                
+                <input type="radio" id="mujer"  name="selección" value="mujer" checked> 
+                <label for="mujer">Mujer</label>
+            </div>
+            </p>
+
+            <p>
+            <div>
+                <label>Correo:</label>
+                <input type="email" name="correo" id="correo">
+            </div>
+            </p>
+
+            <p>
+            <div>
+                <label>Población:</label>
+                <select name="población" id="población">
+                    <option selected>Alicante</option>
+                    <option>Valencia</option>
+                    <option>Castellón</option>
+                </select>
+            </div>
+            </p>
+
+            <p>
+            <div>
+                <label>Descripción:</label>
+                <textarea name="descripción" id="descripción" rows="6">Comentarios</textarea>
+            </div>
+            </p>
+
+            <p>
+            <div>
+                <input type="checkbox" name="deseo" id="deseo"> 
+                <label>Deseo recibir la información sobre novedades y ofertas</label>
+            </div>
+            </p>
+
+            <p>
+            <div>
+                <input type="checkbox" name="declaro" id="declaro">
+                <label>Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+            </div>
+            </p>
+
+            <p>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+            </p>
+
+        </form>
+    </body>
+</html>
