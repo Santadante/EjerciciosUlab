@@ -1,0 +1,30 @@
+.parrafo{
+    display: inline-block;
+    margin-left: 15px;  
+}
+
+.letra{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.fondo{
+    background: grey;
+    width: 100%;
+}
+
+a{
+    color:black;
+    padding: 7px;
+}
+
+a:hover{
+    color:white;
+    background: gray;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+article:target{
+    background: greenyellow;
+}

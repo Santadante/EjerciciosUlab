@@ -1,0 +1,43 @@
+
+@media only screen and (min-width : 768px){
+    html{
+        display: inline-block;
+    }    
+}
+
+
+header {
+    background-color: lightcoral;
+    padding: 20px;
+    
+}
+
+nav {
+    background-color: lightgreen;
+    float: left;
+    height: 435px;
+    width: 20%;
+}
+
+main {
+    background-color: lightseagreen;
+    height: 435px;
+    width: 60%; 
+    float: left;
+}
+  
+aside {
+    background-color: lightyellow;
+    height: 435px;
+   
+    
+}
+  
+footer {
+    background-color: lightpink;
+    clear: both;
+    padding: 20px;
+
+    
+    
+}
